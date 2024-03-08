@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #202124;
+    overflow: hidden;
+    font-family: sans-serif;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+li {
+    text-decoration: none;
+}
+
+.header-text {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.header-text:hover {
+    text-decoration: underline;
+}
+
+.header-icon i {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    padding: 6px;
+   
+}
+
+.header-icon i:hover {
+    background-color: rgb(255, 255, 255, 0.1);
+    border-radius: 100px;
+}
+
+
+.input-group {
+    border: 1px solid rgb(255, 255, 255,0.3);
+    border-radius: 100px;
+}
+
+.input-group:hover {
+    background-color: rgb(255, 255, 255, 0.1);;
+}
+
+.input-group-text {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+.search-input {
+    width: 95%;
+    height: 45px;
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: white;
+}
+
+.search-bar__icon {
+    font-size: 19px;
+    cursor: pointer;
+}
+
+.hero-button {
+    margin-top: 30px;
+}
+.google-button {
+font-size: 14px;
+line-height: 21px;
+background-color:#303134 ;
+color: white;
+border: none;
+outline: none;
+border-radius: 4px;
+margin-right: 12px;
+padding: 8px 16px;
+}
+
+.google-button:hover {
+    outline: 1px solid rgba(177, 175, 175, 0.781); 
+}
+
+.language p {
+    margin-top: 22px;
+    font-size: 13px;
+    line-height: 28px;
+    color:#B4B8BC;
+}
+
+.language p a {
+    margin-left: 6px;
+    font-size: 13px;
+    line-height: 28px;
+    color:#7EA4E1;
+}
+
+.language p a:hover {
+text-decoration: underline;
+}
+
+.fixed-bottom {
+    background-color: #171717;
+    font-size: 13px;
+    line-height: 12px;
+ }
+
+.hr-color {
+    color: white;
+ }
+
+ .footer-right__sidelink a {
+    gap: 15px;
+ }
+
+ .footer-right__sidelink a:hover {
+    text-decoration: underline;
+ }
+
+ .footer-left__sidelink a:hover {
+    text-decoration: underline;
+ }
